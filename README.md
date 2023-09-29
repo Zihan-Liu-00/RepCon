@@ -10,5 +10,5 @@ To train a RepCon model on the example dataset AP, please use the following comm
 ```
 python methods/co-modeling\ contrastive/main.py --dataset AP
 ```
-
+The predictive results can be found in the **'results'** folder in the root directory.
 
