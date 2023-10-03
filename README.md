@@ -15,5 +15,10 @@ python methods/co-modeling\ contrastive/main.py --dataset AP
 Make sure the hyperparameter ```args.mode``` is set as 'train' before a trained model has been stored.
 
 The predictive results can be found in the **'results'** folder in the root directory.
-## 
+## Important hyperparameters
+```args.seq_lr``` the learning rate of the sequential encoder & predictor.
+
+```args.graph_lr``` the learning rate of the graphical encoder & predictor.
+
+```args.nce_weight``` the weight which balance the supervised loss and the contrastive loss.
 
