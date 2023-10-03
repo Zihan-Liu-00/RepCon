@@ -22,3 +22,4 @@ The predictive results can be found in the **'results'** folder in the root dire
 
 ```args.nce_weight``` the weight which balance the supervised loss and the contrastive loss.
 
+The other hyperparameters are relatively insensitive to downstream tasks, and the user can keep the default settings.
